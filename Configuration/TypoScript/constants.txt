@@ -1,0 +1,60 @@
+
+plugin.tx_challenge_table {
+	view {
+		# cat=plugin.tx_challenge_table/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:challenge/Resources/Private/Templates/
+		# cat=plugin.tx_challenge_table/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:challenge/Resources/Private/Partials/
+		# cat=plugin.tx_challenge_table/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:challenge/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_challenge_table//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
+
+plugin.tx_challenge_player {
+	view {
+		# cat=plugin.tx_challenge_player/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:challenge/Resources/Private/Templates/
+		# cat=plugin.tx_challenge_player/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:challenge/Resources/Private/Partials/
+		# cat=plugin.tx_challenge_player/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:challenge/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_challenge_player//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
+
+plugin.tx_challenge_profile {
+	view {
+		# cat=plugin.tx_challenge_profile/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:challenge/Resources/Private/Templates/
+		# cat=plugin.tx_challenge_profile/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:challenge/Resources/Private/Partials/
+		# cat=plugin.tx_challenge_profile/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:challenge/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_challenge_profile//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
+
+module.tx_challenge_challenges {
+	view {
+		# cat=module.tx_challenge_challenges/file; type=string; label=Path to template root (BE)
+		templateRootPath = EXT:challenge/Resources/Private/Backend/Templates/
+		# cat=module.tx_challenge_challenges/file; type=string; label=Path to template partials (BE)
+		partialRootPath = EXT:challenge/Resources/Private/Backend/Partials/
+		# cat=module.tx_challenge_challenges/file; type=string; label=Path to template layouts (BE)
+		layoutRootPath = EXT:challenge/Resources/Private/Backend/Layouts/
+	}
+	persistence {
+		# cat=module.tx_challenge_challenges//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
